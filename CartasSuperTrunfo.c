@@ -7,6 +7,107 @@
 //Teste larissa
 
 int main() {
+    char estado , estado2;
+    char codigo[5] , codigo2 [5];
+    char cidade [20], cidade2 [20];
+    int populacao , populacao2;
+    float area , area2;
+    float pib , pib2;
+    int pontosturistico , pontosturistico2;
+
+    printf("Carta 1\n");
+
+    printf("Digite o estado: ");
+    scanf(" %c", &estado);
+
+    printf("Digite o codigo da carta: ");
+    scanf(" %s", codigo );
+
+    printf("Digite o nome da cidade: ");
+    scanf(" %s", cidade);
+
+    printf("Digite a população: ");
+    scanf(" %d",&populacao);
+
+    printf("Digite a área em km²: ");
+    scanf(" %f", &area);
+
+    printf("Digite o Pib: ");
+    scanf(" %f", &pib);
+
+    printf("Digite o ponto turistico: ");
+    scanf(" %d", &pontosturistico);
+
+    
+    printf("Carta 1\n");
+
+    printf("Estado: %c \n" , estado);
+
+    printf("Código: %s \n" , codigo);
+    
+    printf("Cidade: %s \n" , cidade);
+
+    printf("População: %d \n" , populacao);
+
+    printf("Área: %f \n" , area);
+
+    printf("PIB: %f \n" , pib);
+
+    printf("Pontos Turísticos: %d \n", pontosturistico);
+
+
+
+
+     printf("Carta 2\n");
+
+    printf("Digite o estado: ");
+    scanf(" %c", &estado2);
+
+    printf("Digite o codigo da carta: ");
+    scanf(" %s", codigo2 );
+
+    printf("Digite o nome da cidade: ");
+    scanf(" %s", cidade2);
+
+    printf("Digite a população: ");
+    scanf(" %d",&populacao2);
+
+    printf("Digite a área em km²: ");
+    scanf(" %f", &area2);
+
+    printf("Digite o Pib: ");
+    scanf(" %f", &pib2);
+
+    printf("Digite o ponto turistico: ");
+    scanf(" %d", &pontosturistico2);
+    
+    printf("Carta 2\n");
+
+    printf("Estado:%c \n" , estado2);
+
+    printf("Código: %s \n" , codigo2);
+    
+    printf("Cidade: %s \n" , cidade2);
+
+    printf("População: %d \n" , populacao2);
+
+    printf("Área: %f \n" , area2);
+
+    printf("PIB: %f \n" , pib2);
+
+    printf("Pontos Turísticos: %d \n", pontosturistico2);
+
+
+  
+
+
+
+
+
+
+
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
