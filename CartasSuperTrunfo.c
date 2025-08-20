@@ -19,6 +19,8 @@ int main() {
 
     printf("Carta 1\n");
 
+    printf("\n");
+
     printf("Digite o estado: ");
     scanf(" %c", &estado);
 
@@ -43,7 +45,7 @@ int main() {
     densidadepopulacional = populacao / area;
     pibpercapita = pib / populacao;
 
-
+    printf("\n");
     
     printf("Carta 1\n");
 
@@ -65,10 +67,14 @@ int main() {
 
     printf("O PIB per capita: %.2f reais \n" ,pibpercapita);
 
+    printf("\n");
+
 
 
 
      printf("Carta 2\n");
+
+     printf("\n");
 
     printf("Digite o estado: ");
     scanf(" %c", &estado2);
@@ -93,6 +99,8 @@ int main() {
 
     densidadepopulacional2 = populacao2 / area2;
     pibpercapita2 = pib2 / populacao2;
+
+    printf("\n");
     
     printf("Carta 2\n");
 
@@ -114,7 +122,7 @@ int main() {
     
     printf("O PIB per capita é: %.2f reais \n" ,pibpercapita2);
 
-    
+    printf("\n");
 
 
   
