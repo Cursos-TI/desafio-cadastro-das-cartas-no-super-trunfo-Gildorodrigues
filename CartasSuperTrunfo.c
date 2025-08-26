@@ -10,12 +10,15 @@ int main() {
     char estado , estado2;
     char codigo[5] , codigo2 [5];
     char cidade [20], cidade2 [20];
-    int populacao , populacao2;
-    float area , area2;
+    unsigned long int populacao , populacao2;
+    float area , area2; 
     float pib , pib2;
     int pontosturistico , pontosturistico2;
-    float densidadepopulacional, densidadepopulacional2;
+    float densidadepopulacional , densidadepopulacional2;
+    float densidadepopulacionalinversa, densidadepopulacionalinversa2;
     float pibpercapita, pibpercapita2;
+    float superPoder, superPoder2;
+    int resultado;
 
     printf("Carta 1\n");
 
@@ -44,6 +47,9 @@ int main() {
 
     densidadepopulacional = populacao / area;
     pibpercapita = pib / populacao;
+
+   superPoder = populacao + area + pib + pibpercapita + pontosturistico
+    
 
     printf("\n");
     
