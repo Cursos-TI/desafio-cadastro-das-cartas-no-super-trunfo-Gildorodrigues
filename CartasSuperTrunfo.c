@@ -48,7 +48,7 @@ int main() {
     densidadepopulacional = populacao / area;
     pibpercapita = pib / populacao;
 
-   superPoder = populacao + area + pib + pibpercapita + pontosturistico
+   superPoder = populacao + area + pib + pibpercapita + pontosturistico;
     
 
     printf("\n");
