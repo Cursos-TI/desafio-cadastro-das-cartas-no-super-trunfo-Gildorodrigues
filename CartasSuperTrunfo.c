@@ -46,6 +46,7 @@ int main() {
     scanf(" %d", &pontosturistico);
 
     densidadepopulacional = populacao / area;
+    
     pibpercapita = pib / populacao;
 
    superPoder = populacao + area + pib + pibpercapita + pontosturistico + densidadepopulacionalinversa;
@@ -107,7 +108,7 @@ int main() {
 
     pibpercapita2 = pib2 / populacao2;
 
-    
+
 
     printf("\n");
     
